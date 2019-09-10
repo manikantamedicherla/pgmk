@@ -1,0 +1,38 @@
+# ___________________PGMK ___________________
+
+# Configuartions needed from user
+
+	SSH_USER_NAME="emkay"
+	REMOTE_IP="13.127.234.211"
+	REMOTE_DB_NAME="admissions_copy_april30"
+	LOCAL_DB_NAME="unit_test_db"
+	LOCAL_DB_USER="letseduvate_unittest"
+	LOCAL_DB_USER_PASS="letseduvate_unittest"
+
+	perform_dump_on_every_attempt="no"
+	# perform dump database on every attempt of pgmk in remote
+	# if cronjob is assigned to take dump in remote machine==>make variable as "no" if not "yes"
+
+
+
+# Directories for user reference
+
+	# HOME="/home/manikanta"
+	# PGMK_HOME="/home/manikanta/.pgmk"
+	# dumps_dir="/home/manikanta/.pgmk/dumps"
+	# passkeys_dir="/home/manikanta/.pgmk/passkeys"
+	# exec_file_name="pgmk.sh"
+	# exec_file="/home/manikanta/.pgmk/bin/pgmk.sh"
+	# dump_file_name="admissions_copy_april30_13.127.234.211.dump"
+	# dump_file="/home/manikanta/.pgmk/dumps/admissions_copy_april30_13.127.234.211.dump"
+	# dump_logs_file_name="dumplogs.txt"
+	# dump_logs_file="/home/manikanta/.pgmk/dumps/dumplogs.txt"
+	# postgres_pass_file_name="postgres_pass"
+	# postgres_pass_file="/home/manikanta/.pgmk/passkeys/postgres_pass"
+	# ssh_pass_file_name="ssh_pass"
+	# ssh_pass_file="/home/manikanta/.pgmk/passkeys/ssh_pass"
+	# remote_HOME="/opt/pgmk"
+	# remote_dump_file="/opt/pgmk/dumps/pgmk.dump"
+
+# ___________________PGMK ___________________
+

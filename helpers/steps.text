@@ -1,0 +1,5 @@
+ 2116  sudo -u postgres -i dropdb db1_ut
+ 2117  sudo -u postgres -i createdb db1_ut -O letseduvate
+ 2118  sudo -u postgres -i pg_restore -d db1_ut ~/unitTesting/ut.dump 
+ 2119  sudo -u postgres -i pg_restore -c -d db1_ut ~/unitTesting/ut.dump 
+rsync -avz emkay@13.235.49.174:~/db1_ut.dump ./latest.dump

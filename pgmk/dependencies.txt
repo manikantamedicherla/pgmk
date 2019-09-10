@@ -1,0 +1,4 @@
+1)postgresql
+2)ssh
+..
+I am in hurry to mention all...:
