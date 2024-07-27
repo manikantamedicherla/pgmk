@@ -1,5 +1,3 @@
-Sure! Here is a detailed document explaining the provided Bash script:
-
 # pgmk: PostgreSQL Database Management Kit
 
 ## Overview
@@ -75,17 +73,6 @@ pgmk
 - **--debug**: Prints performed operations info and continues to execute `pgmk`.
 - **--help**: Prints help information and exits.
 - **--version**: Prints version information and exits.
-
-## Tips
-
-To hide the output of any command, redirect stdout and stderr to `/dev/null`:
-
-```bash
-command > /dev/null 2>&1
-```
-
-- `command > /dev/null`: Redirects the output of the command (stdout) to `/dev/null`.
-- `2>&1`: Redirects stderr to stdout, so errors (if any) also go to `/dev/null`.
 
 ## Example Usage
 
